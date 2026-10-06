@@ -48,15 +48,28 @@ The cleaned dataset was exported as a new file, ready for future analysis or mac
 
 💡 Key Takeaways
 ✅ The data was cleaned without losing any records.
+
 📦 Active cases had extreme values that needed controlling.
+
 🌍 The data covers 10 countries, so country-to-country comparison is possible.
+
 ⚠️ Risk is a Yes/No feature, which could be used to build a prediction model later.
+
 🔗 The correlation heatmap shows how the main COVID-19 measures are connected.
+
 🔮 Future Scope
+
 📅 Time-based trend analysis using the Date column
+
 🤖 A machine learning model to predict risk
+
 📉 Death rate and recovery rate for each country
+
 💉 The effect of vaccination on deaths and active cases
+
 🗺️ Interactive dashboards, for example with Power BI or Streamlit
+
+
+
 🎓 Skills Demonstrated
 Data cleaning, missing value handling, outlier detection, data visualization, statistical thinking and storytelling with data.
