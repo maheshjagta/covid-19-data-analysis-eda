@@ -14,15 +14,16 @@ The aim is to turn raw, messy COVID-19 records into a clean, understandable data
 
 📂 About the Dataset
 
-Size: 1,100 records and 8 columns
+   Size: 1,100 records and 8 columns
 
-Coverage: 10 countries
+   Coverage: 10 countries
 
-Columns: Date, Country, Cases, Deaths, Recovered, Active, Vaccine and Risk
+  Columns: Date, Country, Cases, Deaths, Recovered, Active, Vaccine and Risk
 
-Risk: a simple Yes/No indicator
+  Risk: a simple Yes/No indicator
 
-Quality: no duplicate records, but a few missing values
+  Quality: no duplicate records, but a few missing values
+  
 
 
 
