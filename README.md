@@ -24,85 +24,93 @@ Risk: a simple Yes/No indicator
 
 Quality: no duplicate records, but a few missing values
 
+
+
 🛠️ Tools Used
 
 
-🐼 Pandas for loading and cleaning the data
+    🐼 Pandas for loading and cleaning the data
 
-🔢 NumPy for numerical operations
+    🔢 NumPy for numerical operations
 
-📊 Matplotlib and Seaborn for charts and visualizations
+    📊 Matplotlib and Seaborn for charts and visualizations
 
-📓 Jupyter Notebook as the working environment
+    📓 Jupyter Notebook as the working environment
 
-🔄 What Was Done, Step by Step
+    🔄 What Was Done, Step by Step
+    
 
 1. 🔍 Understanding the data
 
-2. 
-I checked the first and last rows, the number of rows and columns, column names, data types and a statistical summary (average, minimum, maximum and so on).
+
+    I checked the first and last rows, the number of rows and columns, column names, data types and a statistical summary (average, minimum, maximum and so on).
+
 
 3. 🧹 Cleaning the data
-4. 
 
-Missing values were found in three columns, 8 each: Country, Recovered and Vaccine.
 
-Missing numbers were filled with the median, and the missing country was filled with the most common one.
+     Missing values were found in three columns, 8 each: Country, Recovered and Vaccine.
 
-No rows were deleted, and no duplicate records were found.
+     Missing numbers were filled with the median, and the missing country was filled with the most common one.
+
+     No rows were deleted, and no duplicate records were found.
 
 
 3. 📦 Handling outliers
-4. 
 
-Boxplots showed extreme values in the Active cases column.
-These were limited to a maximum cap of about 415,000, calculated with the IQR method, so very large values don't distort the analysis
+   
+     Boxplots showed extreme values in the Active cases column.
+     These were limited to a maximum cap of about 415,000, calculated with the IQR method, so very large values don't distort the analysis
 
 4. 📊 Single-variable analysis
-5. 
-I studied each column on its own: the spread of Cases, Deaths, Recovered and Active, the number of records per country, and the balance between risk "Yes" and "No".
+
+   
+    I studied each column on its own: the spread of Cases, Deaths, Recovered and Active, the number of records per country, and the balance between risk "Yes" and "No".
 
 6. 📈 Two-variable analysis
-7. 
-I compared Cases with Deaths, Cases with Active cases, Active cases across countries, and Active cases by risk category.
+
+ 
+    I compared Cases with Deaths, Cases with Active cases, Active cases across countries, and Active cases by risk category.
 
 8. 🔗 Multi-variable analysis
 
-Cases and Deaths were compared again with Risk shown as colour.
-A correlation heatmap showed how strongly Cases, Deaths, Recovered and Active move together.
+
+    Cases and Deaths were compared again with Risk shown as colour.
+   
+     A correlation heatmap showed how strongly Cases, Deaths, Recovered and Active move together.
 
 
 7. 💾 Saving the result
 
-The cleaned dataset was exported as a new file, ready for future analysis or machine learning.
+      The cleaned dataset was exported as a new file, ready for future analysis or machine learning.
 
 💡 Key Takeaways
 
-✅ The data was cleaned without losing any records.
+   ✅ The data was cleaned without losing any records.
 
-📦 Active cases had extreme values that needed controlling.
+   📦 Active cases had extreme values that needed controlling.
 
-🌍 The data covers 10 countries, so country-to-country comparison is possible.
+   🌍 The data covers 10 countries, so country-to-country comparison is possible.
 
-⚠️ Risk is a Yes/No feature, which could be used to build a prediction model later.
+   ⚠️ Risk is a Yes/No feature, which could be used to build a prediction model later.
 
-🔗 The correlation heatmap shows how the main COVID-19 measures are connected.
+   🔗 The correlation heatmap shows how the main COVID-19 measures are connected.
 
 
 🔮 Future Scope
 
-📅 Time-based trend analysis using the Date column
+    📅 Time-based trend analysis using the Date column
 
-🤖 A machine learning model to predict risk
+    🤖 A machine learning model to predict risk
 
-📉 Death rate and recovery rate for each country
+   📉 Death rate and recovery rate for each country
 
-💉 The effect of vaccination on deaths and active cases
+   💉 The effect of vaccination on deaths and active cases
 
-🗺️ Interactive dashboards, for example with Power BI or Streamlit
+   🗺️ Interactive dashboards, for example with Power BI or Streamlit
 
 
 
 🎓 Skills Demonstrated
 
-Data cleaning, missing value handling, outlier detection, data visualization, statistical thinking and storytelling with data.
+      Data cleaning, missing value handling, outlier detection, data visualization, statistical thinking and storytelling with data.
